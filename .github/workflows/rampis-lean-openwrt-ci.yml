@@ -5,11 +5,11 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #=================================================
-name: X64-Lean-OpenWrt-CI
+name: rampis-Lean-OpenWrt-CI
 
 on:
   schedule:
-    - cron: 0 22 * * *
+    - cron: 0 22 * * 5
 #  push:
 #    branches: 
 #      - master
@@ -43,7 +43,7 @@ jobs:
       run: |
           cd openwrt
           rm -f .config
-          cp ../lean-lede-x64 .config
+          cp ../my-erx-rampis .config
 
     - name: Make download
       run: |
