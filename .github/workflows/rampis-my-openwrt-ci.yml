@@ -12,7 +12,7 @@ on:
   #  - cron: 0 22 * * *
   push:
     branches: 
-      - master
+      - openwrt
 
 jobs:
   build:
