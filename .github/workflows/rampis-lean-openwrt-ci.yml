@@ -8,11 +8,11 @@
 name: rampis-Lean-OpenWrt-CI
 
 on:
-  schedule:
-    - cron: 0 22 * * 5
-#  push:
-#    branches: 
-#      - master
+  #schedule:
+  #  - cron: 0 22 * * 5
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
