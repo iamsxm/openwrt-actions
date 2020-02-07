@@ -43,7 +43,7 @@ jobs:
       run: |
           cd openwrt
           rm -f .config
-          cp ../my-erx-rampis .config
+          cp ../lean-lede-rampis .config
 
     - name: Make download
       run: |
